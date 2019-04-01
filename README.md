@@ -8,5 +8,5 @@ User can remove and add menu items to the database
 
 Using:
 
-Swift
-Firebase (for database)
+  - Swift
+  - Firebase (for database)
