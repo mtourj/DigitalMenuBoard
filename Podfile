@@ -17,7 +17,7 @@ target 'MenuBoard' do
     # Pods for testing
   end
 
-  'pod/FirebaseCore'
-  'pod/FirebaseDatabase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
 end
