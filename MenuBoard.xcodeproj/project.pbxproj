@@ -10,6 +10,11 @@
 		1F3102F5776EF71434905AE1 /* Pods_MenuBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0632AFEA416B244998765127 /* Pods_MenuBoard.framework */; };
 		61F987EA7FA3B8351228F6BA /* Pods_MenuBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7A77330A796A828BF123CA /* Pods_MenuBoardTests.framework */; };
 		9904D4542254062000F98B44 /* ItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9904D4532254062000F98B44 /* ItemDB.swift */; };
+		993F98102258795400031AC9 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F980F2258795400031AC9 /* UIManager.swift */; };
+		993F981422587E0200031AC9 /* EditScreensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F981322587E0200031AC9 /* EditScreensViewController.swift */; };
+		993F981622587E5000031AC9 /* ItemDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F981522587E5000031AC9 /* ItemDatabaseViewController.swift */; };
+		993F981822587ED500031AC9 /* MediaDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F981722587ED500031AC9 /* MediaDatabaseViewController.swift */; };
+		993F981A22587EFB00031AC9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F981922587EFB00031AC9 /* SettingsViewController.swift */; };
 		999FC56A2251730200B8C1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FC5692251730200B8C1DA /* AppDelegate.swift */; };
 		999FC56C2251730200B8C1DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FC56B2251730200B8C1DA /* ViewController.swift */; };
 		999FC56F2251730200B8C1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999FC56D2251730200B8C1DA /* Main.storyboard */; };
@@ -50,6 +55,11 @@
 		2BC67CF9DA1B9C806E0C8E0A /* Pods-MenuBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBoardUITests.release.xcconfig"; path = "Target Support Files/Pods-MenuBoardUITests/Pods-MenuBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43730BC1E64086D1E9802FDC /* Pods-MenuBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuBoardTests.debug.xcconfig"; path = "Target Support Files/Pods-MenuBoardTests/Pods-MenuBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9904D4532254062000F98B44 /* ItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDB.swift; sourceTree = "<group>"; };
+		993F980F2258795400031AC9 /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		993F981322587E0200031AC9 /* EditScreensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreensViewController.swift; sourceTree = "<group>"; };
+		993F981522587E5000031AC9 /* ItemDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDatabaseViewController.swift; sourceTree = "<group>"; };
+		993F981722587ED500031AC9 /* MediaDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDatabaseViewController.swift; sourceTree = "<group>"; };
+		993F981922587EFB00031AC9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		999FC5662251730200B8C1DA /* MenuBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999FC5692251730200B8C1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		999FC56B2251730200B8C1DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				999FC5692251730200B8C1DA /* AppDelegate.swift */,
+				993F981322587E0200031AC9 /* EditScreensViewController.swift */,
 				999FC56B2251730200B8C1DA /* ViewController.swift */,
+				993F981522587E5000031AC9 /* ItemDatabaseViewController.swift */,
+				993F981722587ED500031AC9 /* MediaDatabaseViewController.swift */,
+				993F981922587EFB00031AC9 /* SettingsViewController.swift */,
+				993F980F2258795400031AC9 /* UIManager.swift */,
 				99F95607225214B8008E7A4F /* Item.swift */,
 				9904D4532254062000F98B44 /* ItemDB.swift */,
 				999FC56D2251730200B8C1DA /* Main.storyboard */,
@@ -409,10 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993F981822587ED500031AC9 /* MediaDatabaseViewController.swift in Sources */,
+				993F98102258795400031AC9 /* UIManager.swift in Sources */,
 				999FC56C2251730200B8C1DA /* ViewController.swift in Sources */,
+				993F981622587E5000031AC9 /* ItemDatabaseViewController.swift in Sources */,
+				993F981422587E0200031AC9 /* EditScreensViewController.swift in Sources */,
 				9904D4542254062000F98B44 /* ItemDB.swift in Sources */,
 				99F95608225214B8008E7A4F /* Item.swift in Sources */,
 				999FC56A2251730200B8C1DA /* AppDelegate.swift in Sources */,
+				993F981A22587EFB00031AC9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheesklebanesekitchen.MenuBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -617,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheesklebanesekitchen.MenuBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
